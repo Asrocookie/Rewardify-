@@ -1,0 +1,9 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  distDir: 'docs', // This is where Next.js will export the static files for GitHub Pages
+  images: {
+    unoptimized: true // For compatibility with static export
+  }
+};
+module.exports = nextConfig;
