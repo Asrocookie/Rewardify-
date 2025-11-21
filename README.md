@@ -1,0 +1,2 @@
+# Rewardify-
+Rewardify bot website
